@@ -1,0 +1,36 @@
+set autocommit = off;
+start transaction;
+
+insert into objednavka (id_druh_prace, id_objednavatel, id_misto_prace, souvisi_zakon, souvisi_ekonomicka_cinnost, zprac_osobni_udaje, datum_potvrzeni, misto_potvrzeni) values (3, 4, 23, true, false, true, '2020/05/12', 'Laško');
+insert into objednavka (id_druh_prace, id_objednavatel, id_misto_prace, souvisi_zakon, souvisi_ekonomicka_cinnost, zprac_osobni_udaje, datum_potvrzeni, misto_potvrzeni) values (3, 22, 14, true, false, false, '2016/06/18', 'Três de Maio');
+insert into objednavka (id_druh_prace, id_objednavatel, id_misto_prace, souvisi_zakon, souvisi_ekonomicka_cinnost, zprac_osobni_udaje, datum_potvrzeni, misto_potvrzeni) values (1, 14, 24, false, false, true, '2019/03/24', 'Pandakan');
+insert into objednavka (id_druh_prace, id_objednavatel, id_misto_prace, souvisi_zakon, souvisi_ekonomicka_cinnost, zprac_osobni_udaje, datum_potvrzeni, misto_potvrzeni) values (2, 20, 15, false, false, false, '2018/03/23', 'Kaliningrad');
+insert into objednavka (id_druh_prace, id_objednavatel, id_misto_prace, souvisi_zakon, souvisi_ekonomicka_cinnost, zprac_osobni_udaje, datum_potvrzeni, misto_potvrzeni) values (2, 27, 9, true, false, false, '2020/04/03', 'Luts’k');
+insert into objednavka (id_druh_prace, id_objednavatel, id_misto_prace, souvisi_zakon, souvisi_ekonomicka_cinnost, zprac_osobni_udaje, datum_potvrzeni, misto_potvrzeni) values (2, 16, 7, true, false, true, '2019/11/30', 'Tunduma');
+insert into objednavka (id_druh_prace, id_objednavatel, id_misto_prace, souvisi_zakon, souvisi_ekonomicka_cinnost, zprac_osobni_udaje, datum_potvrzeni, misto_potvrzeni) values (1, 16, 27, false, true, true, '2020/03/30', 'Mosteiro');
+insert into objednavka (id_druh_prace, id_objednavatel, id_misto_prace, souvisi_zakon, souvisi_ekonomicka_cinnost, zprac_osobni_udaje, datum_potvrzeni, misto_potvrzeni) values (3, 11, 7, false, true, true, '2018/07/18', 'Bangbayang');
+insert into objednavka (id_druh_prace, id_objednavatel, id_misto_prace, souvisi_zakon, souvisi_ekonomicka_cinnost, zprac_osobni_udaje, datum_potvrzeni, misto_potvrzeni) values (4, 24, 15, false, true, false, '2021/04/03', 'Palampal');
+insert into objednavka (id_druh_prace, id_objednavatel, id_misto_prace, souvisi_zakon, souvisi_ekonomicka_cinnost, zprac_osobni_udaje, datum_potvrzeni, misto_potvrzeni) values (3, 21, 12, false, true, false, '2020/05/10', 'Mrzeżyno');
+insert into objednavka (id_druh_prace, id_objednavatel, id_misto_prace, souvisi_zakon, souvisi_ekonomicka_cinnost, zprac_osobni_udaje, datum_potvrzeni, misto_potvrzeni) values (4, 14, 5, false, false, false, '2021/03/25', 'Yangqiao');
+insert into objednavka (id_druh_prace, id_objednavatel, id_misto_prace, souvisi_zakon, souvisi_ekonomicka_cinnost, zprac_osobni_udaje, datum_potvrzeni, misto_potvrzeni) values (2, 14, 20, true, true, true, '2021/05/21', 'Saki');
+insert into objednavka (id_druh_prace, id_objednavatel, id_misto_prace, souvisi_zakon, souvisi_ekonomicka_cinnost, zprac_osobni_udaje, datum_potvrzeni, misto_potvrzeni) values (4, 27, 24, true, false, false, '2021/08/16', 'Colotenango');
+insert into objednavka (id_druh_prace, id_objednavatel, id_misto_prace, souvisi_zakon, souvisi_ekonomicka_cinnost, zprac_osobni_udaje, datum_potvrzeni, misto_potvrzeni) values (1, 11, 10, true, true, false, '2020/12/14', 'Gandi');
+insert into objednavka (id_druh_prace, id_objednavatel, id_misto_prace, souvisi_zakon, souvisi_ekonomicka_cinnost, zprac_osobni_udaje, datum_potvrzeni, misto_potvrzeni) values (4, 30, 21, false, true, true, '2021/10/16', 'Qingyang');
+insert into objednavka (id_druh_prace, id_objednavatel, id_misto_prace, souvisi_zakon, souvisi_ekonomicka_cinnost, zprac_osobni_udaje, datum_potvrzeni, misto_potvrzeni) values (4, 4, 5, true, true, true, '2016/11/11', 'Mo I Rana');
+insert into objednavka (id_druh_prace, id_objednavatel, id_misto_prace, souvisi_zakon, souvisi_ekonomicka_cinnost, zprac_osobni_udaje, datum_potvrzeni, misto_potvrzeni) values (2, 29, 11, true, false, false, '2018/10/26', 'Shijiazhai');
+insert into objednavka (id_druh_prace, id_objednavatel, id_misto_prace, souvisi_zakon, souvisi_ekonomicka_cinnost, zprac_osobni_udaje, datum_potvrzeni, misto_potvrzeni) values (3, 24, 15, false, true, true, '2018/12/15', 'Ḩarf al Musaytirah');
+insert into objednavka (id_druh_prace, id_objednavatel, id_misto_prace, souvisi_zakon, souvisi_ekonomicka_cinnost, zprac_osobni_udaje, datum_potvrzeni, misto_potvrzeni) values (4, 2, 29, true, true, false, '2016/03/14', 'Guapimirim');
+insert into objednavka (id_druh_prace, id_objednavatel, id_misto_prace, souvisi_zakon, souvisi_ekonomicka_cinnost, zprac_osobni_udaje, datum_potvrzeni, misto_potvrzeni) values (4, 9, 11, true, false, false, '2018/02/19', 'Chengmen');
+insert into objednavka (id_druh_prace, id_objednavatel, id_misto_prace, souvisi_zakon, souvisi_ekonomicka_cinnost, zprac_osobni_udaje, datum_potvrzeni, misto_potvrzeni) values (2, 13, 16, true, false, false, '2016/10/20', 'Curug');
+insert into objednavka (id_druh_prace, id_objednavatel, id_misto_prace, souvisi_zakon, souvisi_ekonomicka_cinnost, zprac_osobni_udaje, datum_potvrzeni, misto_potvrzeni) values (4, 27, 14, true, false, false, '2020/02/16', 'Mulyadadi');
+insert into objednavka (id_druh_prace, id_objednavatel, id_misto_prace, souvisi_zakon, souvisi_ekonomicka_cinnost, zprac_osobni_udaje, datum_potvrzeni, misto_potvrzeni) values (1, 6, 28, true, false, true, '2016/01/14', 'Yantai');
+insert into objednavka (id_druh_prace, id_objednavatel, id_misto_prace, souvisi_zakon, souvisi_ekonomicka_cinnost, zprac_osobni_udaje, datum_potvrzeni, misto_potvrzeni) values (3, 18, 8, true, true, false, '2016/11/20', 'Kaliningrad');
+insert into objednavka (id_druh_prace, id_objednavatel, id_misto_prace, souvisi_zakon, souvisi_ekonomicka_cinnost, zprac_osobni_udaje, datum_potvrzeni, misto_potvrzeni) values (2, 23, 18, false, true, false, '2019/07/22', 'Nāḩiyat Baḩār');
+insert into objednavka (id_druh_prace, id_objednavatel, id_misto_prace, souvisi_zakon, souvisi_ekonomicka_cinnost, zprac_osobni_udaje, datum_potvrzeni, misto_potvrzeni) values (4, 28, 23, true, true, true, '2022/07/06', 'Pregradnoye');
+insert into objednavka (id_druh_prace, id_objednavatel, id_misto_prace, souvisi_zakon, souvisi_ekonomicka_cinnost, zprac_osobni_udaje, datum_potvrzeni, misto_potvrzeni) values (3, 14, 3, true, true, true, '2020/08/10', 'Zhangjiabao');
+insert into objednavka (id_druh_prace, id_objednavatel, id_misto_prace, souvisi_zakon, souvisi_ekonomicka_cinnost, zprac_osobni_udaje, datum_potvrzeni, misto_potvrzeni) values (4, 8, 17, false, true, false, '2022/09/02', 'Fengshan');
+insert into objednavka (id_druh_prace, id_objednavatel, id_misto_prace, souvisi_zakon, souvisi_ekonomicka_cinnost, zprac_osobni_udaje, datum_potvrzeni, misto_potvrzeni) values (3, 4, 30, false, false, false, '2019/04/04', 'Haebaru');
+insert into objednavka (id_druh_prace, id_objednavatel, id_misto_prace, souvisi_zakon, souvisi_ekonomicka_cinnost, zprac_osobni_udaje, datum_potvrzeni, misto_potvrzeni) values (4, 3, 21, true, true, true, '2019/06/20', 'Nankang');
+
+
+commit;
